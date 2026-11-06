@@ -1,6 +1,6 @@
 # The C library and its C++ wrapper, as released (src-rs/corvus-json-schema-capi in Corvus.JsonSchema). Its version is
 # this tag, which Dependabot keeps up to date.
-FROM ghcr.io/corvus-dotnet/corvus-json-schema-c:0.1.6 AS corvus
+FROM ghcr.io/corvus-dotnet/corvus-json-schema-c:0.1.7 AS corvus
 
 FROM alpine:3.24 AS build
 RUN apk add --no-cache cmake g++ make nlohmann-json
